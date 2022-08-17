@@ -1,9 +1,10 @@
 .planning{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .planning_select{
     width: 80%;
+    padding-top: 6px;
     display: flex;
     gap: 5px;
     margin: 0 auto;
@@ -30,12 +31,11 @@
 }
 
 .btn3{
-    width:80%;
+    width: 80%;
     border-radius: 4px;
-    height: 30px;
+    height: 32px;
     display: flex;
-    margin: 0 auto;
-    
+    margin: 15px auto;
     align-items: center;
     justify-content: center;
 }
@@ -43,4 +43,10 @@
 .border{
     /* border: 2px solid black; */
     border:1.5px solid rgba(102,77,229,255);
+}
+img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    align-self: flex-start;
 }

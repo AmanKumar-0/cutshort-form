@@ -1,8 +1,16 @@
 .completed{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .btn4{
     width: 100%;
     border-radius: 4px;
-    height: 30px;
+    height: 32px;
+}
+img.tick {
+    width: 64px;
+    height: 65px;
+    object-fit: contain;
+    justify-content: center;
+    display: flex;
+    margin: 30px auto;
 }

@@ -6,15 +6,20 @@ const Stepper = () => {
 
   // const classCheck=
   const checkValue = (val) => {
-    if (val == 0) return 30;
-    else if (val == 1) return 55;
+    if (val == 0) return 15;
+    else if (val == 1) return 50;
     else if (val == 2) return 85;
     else return 100;
   };
   return (
     <>
       <div className="stepper-container">
-        <progress id="file" value={checkValue(activeStep)} max="100"></progress>
+        <progress
+          className="hello"
+          id="file"
+          value={checkValue(activeStep)}
+          max="100"
+        ></progress>
         {[...Array(totalSteps + 1 || 4)].map((a, idx) => (
           <>
             <button

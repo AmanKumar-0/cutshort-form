@@ -2,11 +2,12 @@ import React, { useContext } from "react";
 import { getHeader } from "../../../helpers/getHeader";
 import { AppContext } from "../../../Pages/Landing";
 import "./Completed.css";
+import tick from "../../../assets/tick.png";
 const Completed = () => {
   const { displayName } = useContext(AppContext);
   return (
     <div className="completed">
-      {/* Icon */}
+      <img className="tick" src={tick}></img>
       {getHeader(4).map((val) => (
         <>
           <h1 className="heading ">

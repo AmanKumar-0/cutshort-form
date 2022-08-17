@@ -5,7 +5,8 @@
 .logo {
     display: flex;
     flex-direction: row;
-    width: 20%;
+    justify-content: center;
     margin: 20px auto;
-    align-items:center;
+    align-items: center;
+    margin-top: 50px;
 }

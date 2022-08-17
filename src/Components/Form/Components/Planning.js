@@ -2,6 +2,8 @@ import React, { useContext, useState } from "react";
 import { AppContext } from "../../../Pages/Landing";
 import { getHeader } from "../../../helpers/getHeader";
 import "./Planning.css";
+import team from "../../../assets/team.png";
+import myself from "../../../assets/myself.png";
 
 const Planning = () => {
   const [selectedCard, setSelectedCard] = useState(0);
@@ -11,13 +13,13 @@ const Planning = () => {
     {
       name: "For Myself",
       description: "Write better. Think more clearly. Stay organized",
-      img: "",
+      img: myself,
       key: 1,
     },
     {
       name: "With my team",
       description: "Wikis, docs, taks & projects, all in one place.",
-      img: "",
+      img: team,
       key: 2,
     },
   ];

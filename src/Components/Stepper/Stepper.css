@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: row;
     width: 80%;
+    gap: 30px;
     margin: 30px auto;
     position: relative;
 }
@@ -11,9 +12,8 @@
 
 .stepper{
     margin: 0 auto;
-    padding: 8px;
+    padding: 7px 10px;
     color: #4b515c;
-    /* align-items: center; */
     background-color: white;
     border: 1px solid #98a2b15e;
     border-radius: 50%;
@@ -26,7 +26,7 @@
     border: 1px solid rgba(102,77,229,255);
 }
 
-progress{
+.hello{
     width: 80%;
     left: 50%;
     top: 50%;
@@ -34,4 +34,8 @@ progress{
     z-index: -1;
     height: 2px;
     position: absolute;
+    background-color: #d8dadd9c;
 }
+
+.hello::-webkit-progress-bar {background: #d8dadd9c; width: 100%;}
+.hello::-webkit-progress-value {background:  rgba(102,77,229,255) !important;}

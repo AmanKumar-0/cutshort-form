@@ -8,7 +8,7 @@
   --primary-clr-label: #4b515c;
 
   --primary-heading-sz: 25px;
-  --primary-sub-heading-sz: 15px;
+  --primary-sub-heading-sz: 13px;
   --primary-label-sz: 15px;
   
 }
@@ -23,6 +23,7 @@ font-size: var(--primary-heading-sz);
 text-align: center;
 }
 .sub_heading{
+  margin-top: 10px;
   font-size: var(--primary-sub-heading-sz);
   color: var(--primary-clr-gray);
   text-align: center;
@@ -34,13 +35,14 @@ text-align: center;
   font-size: var(--primary-label-sz);
   color: var(--primary-clr-label);
   font-weight: 500;
+
 }
 .btn{
   background-color: var(--primary-clr-purple);
   color: #dfd9f9;
   outline: none;
   border: none;
-  margin-top: 10px;
+  margin-top: 15px;
   font-size: small;
   cursor: pointer;
 }
