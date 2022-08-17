@@ -1,0 +1,46 @@
+.planning{
+    margin-top: 100px;
+}
+
+.planning_select{
+    width: 80%;
+    display: flex;
+    gap: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.planning_data{
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 0.1px solid #98a2b15e;
+    display: flex;
+    flex-direction: column;
+    /* height:151px; */
+}
+.planning_data >h5{
+    margin: 5px 0px ;
+    color:#000000ba;
+}
+.planning_data > p{
+    font-size: small;
+    margin: 7px auto;
+    color: #98a2b1;
+}
+
+.btn3{
+    width:80%;
+    border-radius: 4px;
+    height: 30px;
+    display: flex;
+    margin: 0 auto;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.border{
+    /* border: 2px solid black; */
+    border:1.5px solid rgba(102,77,229,255);
+}

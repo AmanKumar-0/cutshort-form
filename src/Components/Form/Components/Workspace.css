@@ -1,0 +1,30 @@
+.workspace{
+    margin-top: 100px;
+}
+.workspace > form {
+    display: flex;
+    flex-direction: column;
+}
+.workspace > form > input::placeholder {
+    color: #98a2b1;
+    }
+.workspace_details > input {
+    width:80%;
+    margin: 0 auto;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+.workspace_details > label {
+    width:80%;
+    margin: 8px auto;
+}
+
+.btn2 {
+    width:80%;
+    align-self: center;
+    border-radius: 4px;
+    height: 30px;
+}
+
