@@ -39,6 +39,55 @@ form.workspace_details {
    width: 85%;
    /* margin: 10px auto 6px auto;*/
 }
+.input-group {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    /* flex-direction: column; */
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    width: 84%;
+    /* padding: 2px 0PX 2px 10px; */
+    font-size: small;
+    margin: 0 auto;
+    height: 32px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #d8dadd9c;
+}
+.input-group-prepend {
+    /* margin-right: -1px; */
+    display: flex;
+}
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    /* line-height: 1.5; */
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    /* border: 1px solid #ced4da; */
+    /* border-radius: 0.25rem; */
+    /* border-top-right-radius: 0; */
+    /* border-bottom-right-radius: 0; */
+}
+    .input-group>.form-control {
+        position: relative;
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+         width: 1%; 
+        margin-bottom: 0;
+    }
+    .input-group > input {
+        outline: none;
+        border: none;
+    }
+    
 
 @media all and (max-width: 435px){
     .workspace > form {
@@ -70,5 +119,50 @@ form.workspace_details {
        font-size: x-small;
        /* margin: 10px auto 6px auto;*/
 }
+.input-group {
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    width: 76%;
+    /* padding: 2px 0PX 2px 10px; */
+    /* font-size: small; */
+    margin: 0 auto;
+    height: 24px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #d8dadd9c;
+} 
+.input-group-prepend {
+    width: 22%;
+    font-size: x-small;
+    margin: 0;
+    padding: 0;
+}
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.3rem;
+    /* line-height: 1.5; */
+    color: #495057;
+    /* text-align: center; */
+    white-space: nowrap;
+    background-color: #e9ecef;
+    /* border: 1px solid #ced4da; */
+    border-radius: 0.25rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.input-group>.form-control {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    font-size: x-small;
+    margin-bottom: 0;
+    border-radius: 2px;
+}
+
 
   }

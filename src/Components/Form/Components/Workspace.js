@@ -43,12 +43,20 @@ const Workspace = () => {
           <label className="label" for="workspace_url">
             Workspace URL (optional)
           </label>
-          <input
-            name="workspace_url"
-            value={workspaceUrl}
-            placeholder="Workspace URL"
-            onChange={(e) => setWorkspaceUrl(e.target.value)}
-          ></input>
+          <div className="input-group">
+            <div className="input-group-prepend">
+              <div className="input-group-text">www</div>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              id="inlineFormInputGroup"
+              name="workspace_url"
+              value={workspaceUrl}
+              placeholder="Workspace URL"
+              onChange={(e) => setWorkspaceUrl(e.target.value)}
+            ></input>
+          </div>
           <button className="btn2 btn" type="submit">
             Create Workspace
           </button>
