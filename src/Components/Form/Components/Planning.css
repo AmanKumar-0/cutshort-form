@@ -42,6 +42,7 @@
 .border{
     /* border: 2px solid black; */ 
     outline: 1.5px solid rgba(102,77,229,255);
+    border-radius: 4px;
 }
 img {
     width: 50px;
@@ -56,6 +57,7 @@ img {
         margin: 2px auto;
         padding-top: 5px;
         display: flex;
+        gap: 3px;
         margin: 4px auto;
         cursor: pointer;
         justify-content: center;
