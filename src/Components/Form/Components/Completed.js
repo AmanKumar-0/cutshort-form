@@ -7,7 +7,7 @@ const Completed = () => {
   const { displayName } = useContext(AppContext);
   return (
     <div className="completed">
-      <img className="tick" src={tick}></img>
+      <img className="tick" src={tick} alt="check"></img>
       {getHeader(4).map((val) => (
         <>
           <h1 className="heading">

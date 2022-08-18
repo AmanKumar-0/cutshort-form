@@ -1,16 +1,23 @@
 .landing-container{
-    width: 35%;
-    margin: 0 auto;
+    display: grid;
+    place-items: center;
 }
 .logo {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 20px auto;
     align-items: center;
     margin-top: 50px;
+    /* margin-top: 50px;
+      /* margin-top: 50px; */
 }
-@media all and (max-width:320px){
+img.logoimg{
+    
+    width: 35px;
+    height: 36px;
+    object-fit: contain;
+}
+/* @media all and (max-width:320px){
     .landing-container{
         width: 100%;
         margin: 0 auto;
@@ -23,9 +30,12 @@
         margin: 0 auto;
     }
 }
+*/
 @media all and (max-width:425px){
-    .landing-container{
-        width: 100%;
-        margin: 0 auto;
+    img.logoimg{
+    
+        width: 25px;
+        height: 26px;
+        object-fit: contain;
     }
-}
+} 

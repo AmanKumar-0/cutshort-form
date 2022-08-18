@@ -6,9 +6,9 @@ const Stepper = () => {
 
   // const classCheck=
   const checkValue = (val) => {
-    if (val == 0) return 15;
-    else if (val == 1) return 50;
-    else if (val == 2) return 85;
+    if (val === 0) return 15;
+    else if (val === 1) return 50;
+    else if (val === 2) return 85;
     else return 100;
   };
   return (

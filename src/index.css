@@ -3,14 +3,7 @@
   margin: 0;  
 }
 
-@media all  and (max-width: 320px){
-  body{
 
-    min-height: 80vh;
-  
-    font-family: 'Inter', sans-serif;
-  }
-}
 :root{
   --primary-clr-purple: rgba(102,77,229,255);
   --primary-clr-gray: #98a2b1;
@@ -48,10 +41,22 @@ text-align: center;
 }
 .btn{
   background-color: var(--primary-clr-purple);
-  color: #dfd9f9;
+  color: #f0f0f3;
   outline: none;
   border: none;
   margin-top: 15px;
   font-size: small;
   cursor: pointer;
+}
+@media all and (max-width: 435px){
+  :root{
+    --primary-clr-purple: rgba(102,77,229,255);
+    --primary-clr-gray: #98a2b1;
+    --primary-clr-label: #4b515c;
+  
+    --primary-heading-sz: 15px;
+    --primary-sub-heading-sz: 8px;
+    --primary-label-sz: 10px;
+    
+  }
 }

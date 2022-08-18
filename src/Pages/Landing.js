@@ -24,7 +24,7 @@ const Landing = () => {
   return (
     <div className="landing-container">
       <div className="logo">
-        <img src={logo} alt="Logo" />
+        <img className="logoimg" src={logo} alt="Logo" />
         <h1 className="heading">Eden</h1>
       </div>
       <AppContext.Provider

@@ -14,13 +14,12 @@ const Workspace = () => {
   } = useContext(AppContext);
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (workspaceName == "" || workspaceUrl == "")
-      return alert("Please enter all details");
+    if (workspaceName === "") return alert("Please enter all details");
 
     handleNextStep(activeStep);
   };
   return (
-    <div className="workspace">
+    <>
       <div className="workspace_header">
         {getHeader(2).map((val) => (
           <>
@@ -29,30 +28,33 @@ const Workspace = () => {
           </>
         ))}
       </div>
-      <form className="workspace_details" onSubmit={handleSubmit}>
-        <label className="label" for="workspace_name">
-          Workspace Name
-        </label>
-        <input
-          name="workspace_name"
-          value={workspaceName}
-          placeholder="Workspace Name"
-          onChange={(e) => setWorkspaceName(e.target.value)}
-        ></input>
-        <label className="label" for="workspace_url">
-          Workspace URL (optional)
-        </label>
-        <input
-          name="workspace_url"
-          value={workspaceUrl}
-          placeholder="Workspace URL"
-          onChange={(e) => setWorkspaceUrl(e.target.value)}
-        ></input>
-        <button className="btn2 btn" type="submit">
-          Create WorkSpace
-        </button>
-      </form>
-    </div>
+
+      <div className="workspace">
+        <form className="workspace_details" onSubmit={handleSubmit}>
+          <label className="label" for="workspace_name">
+            Workspace Name
+          </label>
+          <input
+            name="workspace_name"
+            value={workspaceName}
+            placeholder="Workspace Name"
+            onChange={(e) => setWorkspaceName(e.target.value)}
+          ></input>
+          <label className="label" for="workspace_url">
+            Workspace URL (optional)
+          </label>
+          <input
+            name="workspace_url"
+            value={workspaceUrl}
+            placeholder="Workspace URL"
+            onChange={(e) => setWorkspaceUrl(e.target.value)}
+          ></input>
+          <button className="btn2 btn" type="submit">
+            Create Workspace
+          </button>
+        </form>
+      </div>
+    </>
   );
 };
 

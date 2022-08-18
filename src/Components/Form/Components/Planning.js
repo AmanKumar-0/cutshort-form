@@ -7,8 +7,7 @@ import myself from "../../../assets/myself.png";
 
 const Planning = () => {
   const [selectedCard, setSelectedCard] = useState(0);
-  const { usage, setUsage, handleNextStep, activeStep } =
-    useContext(AppContext);
+  const { setUsage, handleNextStep, activeStep } = useContext(AppContext);
   let array = [
     {
       name: "For Myself",
@@ -25,7 +24,7 @@ const Planning = () => {
   ];
 
   const selectCard = (val) => {
-    if (selectedCard == val) {
+    if (selectedCard === val) {
       setSelectedCard(0);
       setUsage("");
     } else {
@@ -50,7 +49,7 @@ const Planning = () => {
         {array.map((data) => (
           <div
             className={
-              data.key == selectedCard
+              data.key === selectedCard
                 ? "planning_data border"
                 : "planning_data"
             }

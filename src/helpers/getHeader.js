@@ -3,7 +3,7 @@ export const getHeader = (step) => {
     case 1:
       return [
         {
-          heading: "Welcome! First thing First...",
+          heading: "Welcome!                 First thing First.....",
           subHeading: "You can always change them later.",
         },
       ];

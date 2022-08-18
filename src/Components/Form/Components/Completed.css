@@ -1,16 +1,46 @@
 .completed{
-    margin-top: 60px;
+    margin-top: 65px;
 }
 .btn4{
-    width: 100%;
+  
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
-    height: 32px;
+    height: 33px;
+
 }
 img.tick {
-    width: 64px;
-    height: 65px;
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    justify-content: center;
+    display: flex;
+    margin: 33px auto;
+}
+
+@media all and (max-width: 435px){
+.completed{
+    margin-top: 0px;
+}
+.btn4{
+    
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    height: 25px;
+}
+img.tick{
+    width: 60px;
+    height: 60px;
     object-fit: contain;
     justify-content: center;
     display: flex;
     margin: 30px auto;
 }
+  }
