@@ -31,7 +31,7 @@ const Name = () => {
         ))}
       </div>
       <form className="details" onSubmit={handleSubmit}>
-        <label className="label" for="full_name">
+        <label className="label" htmlFor="full_name">
           Full Name
         </label>
         <input
@@ -40,7 +40,7 @@ const Name = () => {
           placeholder="Full Name"
           onChange={(e) => setFullName(e.target.value)}
         ></input>
-        <label className="label" for="display_name">
+        <label className="label" htmlFor="display_name">
           Display Name
         </label>
         <input

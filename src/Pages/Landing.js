@@ -21,14 +21,6 @@ const Landing = () => {
     if (activeStep == val && activeStep > 0) setActiveStep(activeStep - 1);
   };
 
-  console.log(
-    fullName,
-    displayName,
-    workspaceName,
-    workspaceUrl,
-    usage,
-    activeStep
-  );
   return (
     <div className="landing-container">
       <div className="logo">

@@ -10,3 +10,22 @@
     align-items: center;
     margin-top: 50px;
 }
+@media all and (max-width:320px){
+    .landing-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width:375px){
+    .landing-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media all and (max-width:425px){
+    .landing-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

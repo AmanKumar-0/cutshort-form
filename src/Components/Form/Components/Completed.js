@@ -10,7 +10,7 @@ const Completed = () => {
       <img className="tick" src={tick}></img>
       {getHeader(4).map((val) => (
         <>
-          <h1 className="heading ">
+          <h1 className="heading">
             {val.heading} {displayName}!
           </h1>
           <p className="sub_heading">{val.subHeading}</p>

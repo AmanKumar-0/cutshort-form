@@ -2,6 +2,15 @@
 *{
   margin: 0;  
 }
+
+@media all  and (max-width: 320px){
+  body{
+
+    min-height: 80vh;
+  
+    font-family: 'Inter', sans-serif;
+  }
+}
 :root{
   --primary-clr-purple: rgba(102,77,229,255);
   --primary-clr-gray: #98a2b1;
