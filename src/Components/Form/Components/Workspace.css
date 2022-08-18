@@ -16,6 +16,9 @@ form.workspace_details {
 .workspace > form > input::placeholder {
     color: #98a2b1;
     }
+    input#inlineFormInputGroup::placeholder {
+        color: #98a2b1;
+    }
 .workspace_details > input {
     width: 80%;
     padding: 2px 0PX 2px 10px;
@@ -104,6 +107,9 @@ form.workspace_details {
     border-radius: 4px;
     outline: none;
     border: 1px solid #d8dadd9c;
+}
+input#inlineFormInputGroup::placeholder {
+    color: #98a2b1;
 }
 .workspace_details > label {
     width:70%;
